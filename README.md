@@ -1,5 +1,8 @@
 # Packet-Sniffer
-This tool allows you to view network traffic flowing thru a system.
+## ⚠ Disclaimer
+### Use this at your own disretion. The developer is not responsible for any misuse of the tool.
+
+Packet Sniffer allows you to view network traffic flowing thru a system.
 
 
 **To use this:**
@@ -11,6 +14,8 @@ This tool allows you to view network traffic flowing thru a system.
 
     scapy module
     scapy_http module
+
+Make sure you have the latest versions of the above modules to avoid any unusual errors.
     
 **Intructions to install modules:**
     
@@ -20,4 +25,6 @@ This tool allows you to view network traffic flowing thru a system.
 
 *This is **currently** supported only on **UNIX** environment, but can be targetted against **any** system irrespective of it's OS*
 
-***scapy_http** is a third party module used to add support to HTTP in scapy*
+> ***scapy_http** is a third party module used to add support to HTTP in scapy*
+
+Using <a href="https://github.com/vinsdragonis/ARP-Spoofer">ARP Spoofer</a>, you can sniff packets traveling thru remote systems.
