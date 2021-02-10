@@ -8,7 +8,8 @@ Packet Sniffer allows you to view network traffic flowing thru a system.
 **To use this:**
 
     1. Clone this repository
-    2. Run netowrk_scanner.py
+    2. Run packet_sniffer.py if you are using python2.x
+    3. Run packet_sniffer3.py if you are using python3.x
     
 **Dependencies:**
 
