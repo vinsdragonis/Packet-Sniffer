@@ -29,3 +29,7 @@ Make sure you have the latest versions of the above modules to avoid any unusual
 > ***scapy_http** is a third party module used to add support to HTTP in scapy*
 
 Using <a href="https://github.com/vinsdragonis/ARP-Spoofer">ARP Spoofer</a>, you can sniff packets traveling thru remote systems.
+
+This supports only HTTP requests for the moment, and not HTTPS.
+
+- [x] Completed
