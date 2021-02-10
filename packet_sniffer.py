@@ -2,19 +2,6 @@
 
 import scapy.all as scapy
 from scapy.layers import http
-import argparse
-
-
-def get_interface():
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument("-i", "--interface", dest="interface", help="use this to set the interface")
-    options = parser.parse_args()
-
-    if not options.interface:
-        parser.error("[-] Please specify the network interface, use --help for more info")
-
-    return options
 
 
 def sniff(interface):
@@ -45,5 +32,4 @@ def process_sniffed_packet(packet):
             print("\n\nEntered login credentials >>> " + login_info + "\n\n")
 
 
-network_interface = get_interface()
-sniff(network_interface)
+sniff("eth0")
