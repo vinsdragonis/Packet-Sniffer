@@ -20,4 +20,4 @@ This tool allows you to sniff and read network packets travelling to and from a 
 
 *This is **currently** supported only on **UNIX** environment, but can be targetted against **any** system irrespective of it's OS*
 
-*scapy_http is a third party module used to add support to HTTP in scapy*
+***scapy_http** is a third party module used to add support to HTTP in scapy*
