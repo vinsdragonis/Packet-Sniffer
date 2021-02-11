@@ -23,6 +23,7 @@ Make sure you have the latest versions of the above modules to avoid any unusual
     1. pip install scapy
     2. pip3 install scapy (Use this for python3 support)
     3. pip install scapy_http
+    4. pip3 install scapy_http
 
 *This is **currently** supported only on **UNIX** environment, but can be targetted against **any** system irrespective of it's OS*
 
