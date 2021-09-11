@@ -1,10 +1,7 @@
 # Packet-Sniffer
 
-Packet Sniffer allows you to view network traffic flowing thru a system.
-
 ## ⚠ Disclaimer!!
 ### Use this at your own discretion. The developer is not responsible for any misuse of the tool.
-
 
 
 **To use this:**
